@@ -64,6 +64,8 @@ builds a package for *Install from ZIP*.
   switched to the local UTM zone, so distances and heights are true; the
   project's full extent is set to the moves, the extent QGIS builds the scene
   over.
+
+  ![A test flight in the QGIS 3D view, over Terrain Tiles relief draped with Esri imagery](qambit_airsport.png)
 - **Detailed terrain**: downloads the elevation around the selected moves
   and makes it the project terrain (3D views and elevation profile):
   - **IGN LiDAR HD** in metropolitan France: the surface model (MNS, with

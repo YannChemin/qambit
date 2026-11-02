@@ -59,6 +59,9 @@ def test_store_layers(store_gpkg):
     assert tracks.featureCount() == 1
     assert tracks.renderer().type() == "categorizedSymbol"
     assert tracks.elevationProperties().clamping() == Qgis.AltitudeClamping.Absolute
+    symbol = tracks.renderer3D().symbol()
+    assert symbol.materialSettings().type() == "simpleline"
+    assert symbol.materialSettings().ambient().name() == "#e01b24"
     points = layers[store.POINTS]
     assert points.temporalProperties().isActive()
     span = qgis_layers.time_range_of(points)

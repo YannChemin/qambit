@@ -97,7 +97,7 @@ def _set_3d_renderer(layer):
     try:
         from qgis._3d import (
             QgsLine3DSymbol,
-            QgsPhongMaterialSettings,
+            QgsSimpleLineMaterialSettings,
             QgsVectorLayer3DRenderer,
         )
     except ImportError:
@@ -106,9 +106,10 @@ def _set_3d_renderer(layer):
     symbol.setAltitudeClamping(Qgis.AltitudeClamping.Absolute)
     symbol.setRenderAsSimpleLines(True)
     symbol.setWidth(3.0)
-    material = QgsPhongMaterialSettings()
+    # Simple lines take their colour from a line material; a Phong material
+    # is ignored for them and QGIS draws the default black.
+    material = QgsSimpleLineMaterialSettings()
     material.setAmbient(QColor(CATEGORY_COLORS["air"]))
-    material.setDiffuse(QColor(CATEGORY_COLORS["air"]))
     symbol.setMaterialSettings(material)
     layer.setRenderer3D(QgsVectorLayer3DRenderer(symbol))
 
