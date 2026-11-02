@@ -1,0 +1,20 @@
+[general]
+name=QAmbit
+qgisMinimumVersion=3.34
+supportsQt6=True
+description=Suunto Ambit watches in QGIS: sync, moves as map layers, 3D flights over terrain
+about=QAmbit brings openambit2 into QGIS. It syncs a Suunto Ambit (Ambit 1/2/3, Traverse) through openambit2's openambit-cli: new moves, watch time and GPS orbit (no Movescount account); it edits and writes sport modes, including air sports templates, and training plans. Moves are kept in a GeoPackage and shown with QGIS's own tools: tracks styled by activity, 3D views (air sports open in 3D automatically), the elevation profile, and the time slider to replay a move. Terrain comes from AWS Terrain Tiles, IGN LiDAR HD (50 cm, France) or the Copernicus DEM; basemaps come from the HCMGIS plugin. Requires openambit2's openambit-cli (https://github.com/YannChemin/openambit2) and read/write access to the watch's hidraw device.
+version=0.1.0
+author=Yann Chemin
+email=dr.yann.chemin@gmail.com
+homepage=https://github.com/YannChemin/qambit
+repository=https://github.com/YannChemin/qambit
+tracker=https://github.com/YannChemin/qambit/issues
+category=Plugins
+icon=icons/icon.svg
+tags=gps,gpx,sport,suunto,ambit,paragliding,3d,elevation,lidar,track
+experimental=True
+deprecated=False
+plugin_dependencies=HCMGIS
+server=False
+hasProcessingProvider=yes

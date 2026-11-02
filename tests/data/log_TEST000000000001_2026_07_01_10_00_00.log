@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE openambitlog>
+<openambitlog version="1.0">
+    <SerialNumber>TEST000000000001</SerialNumber>
+    <Time>2026-07-01T10:00:00</Time>
+    <DeviceInfo>
+        <Serial>TEST000000000001</Serial>
+        <Model>Finch</Model>
+        <Name>Suunto Ambit3 Sport</Name>
+        <FWVersion>2.4.17</FWVersion>
+        <HWVersion>70.2.17414</HWVersion>
+    </DeviceInfo>
+    <Log>
+        <Header>
+            <DateTime>2026-07-01T10:00:00</DateTime>
+            <Duration>45000</Duration>
+            <Ascent>400</Ascent>
+            <Descent>0</Descent>
+            <Altitude>
+                <Max>1435</Max>
+                <Min>1035</Min>
+            </Altitude>
+            <HR>
+                <Avg>122</Avg>
+                <Max>124</Max>
+            </HR>
+            <ActivityType>92</ActivityType>
+            <Activity>Paragliding</Activity>
+            <ActivityTypeName>Paragliding</ActivityTypeName>
+            <Temperature>
+                <Max>32767</Max>
+                <Min>-32768</Min>
+            </Temperature>
+            <Distance>1200</Distance>
+            <Energy>80</Energy>
+        </Header>
+        <Samples>
+            <Sample>
+                <Type id="777">lap-info</Type>
+                <UTC>2026-07-01T08:00:00.000Z</UTC>
+                <Time>0</Time>
+                <Lap>
+                    <Type id="31">Start</Type>
+                    <DateTime>2026-07-01T10:00:00</DateTime>
+                    <Duration>600</Duration>
+                    <Distance>0</Distance>
+                </Lap>
+            </Sample>
+            <Sample>
+                <Type id="783">gps-base</Type>
+                <UTC>2026-07-01T08:00:01.000Z</UTC>
+                <Time>1000</Time>
+                <Latitude>0</Latitude>
+                <Longitude>0</Longitude>
+                <GPSAltitude>0</GPSAltitude>
+            </Sample>
+            <Sample>
+                <Type id="512">periodic</Type>
+                <UTC>2026-07-01T08:00:02.000Z</UTC>
+                <Time>2000</Time>
+                <Altitude>1035</Altitude>
+                <HR>120</HR>
+                <Speed>1000</Speed>
+                <Distance>0</Distance>
+                <VerticalSpeed>150</VerticalSpeed>
+                <Temperature>215</Temperature>
+            </Sample>
+            <Sample>
+                <Type id="783">gps-base</Type>
+                <UTC>2026-07-01T08:00:03.000Z</UTC>
+                <Time>3000</Time>
+                <Latitude>459200000</Latitude>
+                <Longitude>68700000</Longitude>
+                <GPSAltitude>104000</GPSAltitude>
+                <EHPE>450</EHPE>
+                <NumberOfSatellites>9</NumberOfSatellites>
+            </Sample>
+            <Sample>
+                <Type id="512">periodic</Type>
+                <UTC>2026-07-01T08:00:12.000Z</UTC>
+                <Time>12000</Time>
+                <Altitude>1135</Altitude>
+                <HR>121</HR>
+                <Speed>1001</Speed>
+                <Distance>300</Distance>
+                <VerticalSpeed>150</VerticalSpeed>
+                <Temperature>215</Temperature>
+            </Sample>
+            <Sample>
+                <Type id="783">gps-base</Type>
+                <UTC>2026-07-01T08:00:13.000Z</UTC>
+                <Time>13000</Time>
+                <Latitude>459210000</Latitude>
+                <Longitude>68720000</Longitude>
+                <GPSAltitude>114000</GPSAltitude>
+                <EHPE>450</EHPE>
+                <NumberOfSatellites>9</NumberOfSatellites>
+            </Sample>
+            <Sample>
+                <Type id="512">periodic</Type>
+                <UTC>2026-07-01T08:00:22.000Z</UTC>
+                <Time>22000</Time>
+                <Altitude>1235</Altitude>
+                <HR>122</HR>
+                <Speed>1002</Speed>
+                <Distance>600</Distance>
+                <VerticalSpeed>150</VerticalSpeed>
+                <Temperature>215</Temperature>
+            </Sample>
+            <Sample>
+                <Type id="783">gps-base</Type>
+                <UTC>2026-07-01T08:00:23.000Z</UTC>
+                <Time>23000</Time>
+                <Latitude>459220000</Latitude>
+                <Longitude>68740000</Longitude>
+                <GPSAltitude>124000</GPSAltitude>
+                <EHPE>450</EHPE>
+                <NumberOfSatellites>9</NumberOfSatellites>
+            </Sample>
+            <Sample>
+                <Type id="512">periodic</Type>
+                <UTC>2026-07-01T08:00:32.000Z</UTC>
+                <Time>32000</Time>
+                <Altitude>1335</Altitude>
+                <HR>123</HR>
+                <Speed>1003</Speed>
+                <Distance>900</Distance>
+                <VerticalSpeed>150</VerticalSpeed>
+                <Temperature>215</Temperature>
+            </Sample>
+            <Sample>
+                <Type id="783">gps-base</Type>
+                <UTC>2026-07-01T08:00:33.000Z</UTC>
+                <Time>33000</Time>
+                <Latitude>459230000</Latitude>
+                <Longitude>68760000</Longitude>
+                <GPSAltitude>134000</GPSAltitude>
+                <EHPE>450</EHPE>
+                <NumberOfSatellites>9</NumberOfSatellites>
+            </Sample>
+            <Sample>
+                <Type id="512">periodic</Type>
+                <UTC>2026-07-01T08:00:42.000Z</UTC>
+                <Time>42000</Time>
+                <Altitude>1435</Altitude>
+                <HR>124</HR>
+                <Speed>1004</Speed>
+                <Distance>1200</Distance>
+                <VerticalSpeed>150</VerticalSpeed>
+                <Temperature>215</Temperature>
+            </Sample>
+            <Sample>
+                <Type id="783">gps-base</Type>
+                <UTC>2026-07-01T08:00:43.000Z</UTC>
+                <Time>43000</Time>
+                <Latitude>459240000</Latitude>
+                <Longitude>68780000</Longitude>
+                <GPSAltitude>144000</GPSAltitude>
+                <EHPE>450</EHPE>
+                <NumberOfSatellites>9</NumberOfSatellites>
+            </Sample>
+            <Sample>
+                <Type id="784">position</Type>
+                <UTC>2026-07-01T08:00:44.500Z</UTC>
+                <Time>42500</Time>
+                <Latitude>459240000</Latitude>
+                <Longitude>68780000</Longitude>
+            </Sample>
+        </Samples>
+    </Log>
+</openambitlog>

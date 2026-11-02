@@ -1,0 +1,10 @@
+line-length = 100
+
+[lint]
+select = ["E", "F", "W", "B", "I"]
+# Lines are left to the formatter; user messages use str.format() so that
+# they stay translatable.
+ignore = ["E501"]
+
+[lint.isort]
+known-first-party = ["qambit"]
