@@ -5,6 +5,8 @@ QAmbit puts Suunto Ambit watches in QGIS. It does what
 tools wherever QGIS has one: layers, styling, 3D views, the elevation profile,
 the time slider, Processing and the task manager.
 
+![QAmbit in QGIS: the Ambit watch panel, moves listed and drawn over a satellite basemap](qambit_plugin.png)
+
 | openambit2 | QAmbit |
 |---|---|
 | Device detection (udev) | Watches `/dev` for Suunto HID devices (vendor 0x1493) |

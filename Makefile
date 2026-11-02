@@ -39,4 +39,4 @@ lint:
 zip: qm
 	rm -f $(PLUGIN).zip
 	cd .. && zip -qr $(PLUGIN)/$(PLUGIN).zip $(PLUGIN) \
-	    -x '$(PLUGIN)/.git*' '*/__pycache__/*' '$(PLUGIN)/tests/*' '$(PLUGIN)/*.zip' '$(PLUGIN)/i18n/*.ts' '$(PLUGIN)/Makefile' '$(PLUGIN)/ruff.toml'
+	    -x '$(PLUGIN)/.git*' '*/__pycache__/*' '$(PLUGIN)/tests/*' '$(PLUGIN)/*.zip' '$(PLUGIN)/i18n/*.ts' '$(PLUGIN)/Makefile' '$(PLUGIN)/ruff.toml' '$(PLUGIN)/*.png'
